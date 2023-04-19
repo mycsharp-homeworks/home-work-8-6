@@ -14,7 +14,10 @@ namespace HomeWork_8_6
             //Task1List();
 
             // Задание 2. Телефонная книга
-            Task2Phonebook();
+            //Task2Phonebook();
+
+            // Задание 3. Проверка повторов
+            Task3Duplicates();
         }
 
         /// <summary>
@@ -53,7 +56,9 @@ namespace HomeWork_8_6
         /// </summary>
         public static void Task3Duplicates()
         {
-            
+            CheckForDuplicates checkForDuplicates = new CheckForDuplicates();
+
+            checkForDuplicates.addNumber();
         }
 
         /// <summary>
