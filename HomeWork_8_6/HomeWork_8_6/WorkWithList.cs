@@ -8,7 +8,7 @@ namespace HomeWork_8_6
 {
     class WorkWithList
     {
-        public List<int> ints = new List<int>();
+        private List<int> ints = new List<int>();
 
         /// <summary>
         /// Метод заполняет лист 100 случайными числами в диапазоне от 0 до 100.

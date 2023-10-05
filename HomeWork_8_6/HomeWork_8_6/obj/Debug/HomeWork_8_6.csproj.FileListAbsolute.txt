@@ -2,7 +2,6 @@ C:\cSharp_HomeWorks\home-work-8-6\HomeWork_8_6\HomeWork_8_6\bin\Debug\HomeWork_8
 C:\cSharp_HomeWorks\home-work-8-6\HomeWork_8_6\HomeWork_8_6\bin\Debug\HomeWork_8_6.exe
 C:\cSharp_HomeWorks\home-work-8-6\HomeWork_8_6\HomeWork_8_6\bin\Debug\HomeWork_8_6.pdb
 C:\cSharp_HomeWorks\home-work-8-6\HomeWork_8_6\HomeWork_8_6\obj\Debug\HomeWork_8_6.csproj.AssemblyReference.cache
-C:\cSharp_HomeWorks\home-work-8-6\HomeWork_8_6\HomeWork_8_6\obj\Debug\HomeWork_8_6.csproj.SuggestedBindingRedirects.cache
 C:\cSharp_HomeWorks\home-work-8-6\HomeWork_8_6\HomeWork_8_6\obj\Debug\HomeWork_8_6.csproj.CoreCompileInputs.cache
 C:\cSharp_HomeWorks\home-work-8-6\HomeWork_8_6\HomeWork_8_6\obj\Debug\HomeWork_8_6.exe
 C:\cSharp_HomeWorks\home-work-8-6\HomeWork_8_6\HomeWork_8_6\obj\Debug\HomeWork_8_6.pdb

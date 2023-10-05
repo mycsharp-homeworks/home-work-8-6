@@ -8,8 +8,8 @@ namespace HomeWork_8_6
 {
     class CheckForDuplicates
     {
-        HashSet<string> ints = new HashSet<string>();
-        string number = " ";
+        private HashSet<string> ints = new HashSet<string>();
+        private string number = " ";
 
         /// <summary>
         /// Пользователь вводит число. 
@@ -20,8 +20,8 @@ namespace HomeWork_8_6
         {
             while (true)
             {
-                Console.WriteLine(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
-                Console.WriteLine("Введите число (Нажмите Enter, если вы закончили вводить числа): ");
+                Console.WriteLine("-------------------------------------------------------------------");
+                Console.WriteLine("Введите число (Нажмите Enter, если вы закончили вводить числа):");
                 number = Console.ReadLine();
 
                 if (number.Equals(""))
@@ -32,20 +32,13 @@ namespace HomeWork_8_6
                 if (!ints.Contains(number))
                 {
                     ints.Add(number);
-                    Console.WriteLine("<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<");
-                    Console.WriteLine("Число было успешно сохранено!");
-                    Console.WriteLine();
-                    Console.WriteLine("Нажмите Enter, что бы продолжить!");
-                    Console.ReadKey();
+                    Console.WriteLine("___________________________________________________________________");
+                    Console.WriteLine("|                  Число было успешно сохранено!                  |");
                 }
                 else
                 {
-                    Console.WriteLine("<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<");
-                    Console.WriteLine("Такое число уже вводилось ранее! Введите другое!");
-                    Console.WriteLine();
-                    Console.WriteLine("Нажмите Enter, что бы продолжить!");
-                    Console.ReadKey();
-                }
+                    Console.WriteLine("___________________________________________________________________");
+                    Console.WriteLine("|         Такое число уже вводилось ранее! Введите другое!        |");             }
             }
         }
     } 

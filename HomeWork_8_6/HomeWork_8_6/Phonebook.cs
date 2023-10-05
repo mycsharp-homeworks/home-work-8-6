@@ -9,7 +9,7 @@ namespace HomeWork_8_6
 {
     internal class Phonebook
     {
-        Dictionary<string, string> phonebook = new Dictionary<string, string>();
+        private Dictionary<string, string> phonebook = new Dictionary<string, string>();
 
         /// <summary>
         /// Метод итеративно предлагает пользователю вводить в программу номера телефонов и ФИО их владельцев.

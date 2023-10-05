@@ -17,7 +17,9 @@ namespace HomeWork_8_6
             //Task2Phonebook();
 
             // Задание 3. Проверка повторов
-            Task3Duplicates();
+            //Task3Duplicates();
+
+            Task4Jotter();
         }
 
         /// <summary>
@@ -66,7 +68,9 @@ namespace HomeWork_8_6
         /// </summary>
         public static void Task4Jotter()
         {
-
+            Jotter jotter = new Jotter();
+            jotter.FillInContactInfo();
+            jotter.SaveContactInfoToXml();
         }
     }
 }

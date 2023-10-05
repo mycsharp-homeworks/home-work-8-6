@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Person name="John Doe">
+  <Address>
+    <Street>Unknown street</Street>
+    <HomeNumber>500</HomeNumber>
+    <FlatNumber>404</FlatNumber>
+  </Address>
+  <Phones>
+    <MobilePhoneNumber>+7404500400</MobilePhoneNumber>
+    <LandLineNumber>+7500404400</LandLineNumber>
+  </Phones>
+</Person>
